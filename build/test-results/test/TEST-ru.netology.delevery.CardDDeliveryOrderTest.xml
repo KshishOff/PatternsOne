@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.delevery.CardDDeliveryOrderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-03T15:04:28" hostname="WIN-13NS54FFNVA" time="5.65">
+  <properties/>
+  <testcase name="Should successful plan meeting" classname="ru.netology.delevery.CardDDeliveryOrderTest" time="5.65"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\User\IdeaProjects\PatternsOne\build\downloads\1688396668361_12908_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\User\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 25988
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+июл. 03, 2023 6:04:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 109
+июл. 03, 2023 6:04:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.9.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=109.0.5414.120 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.13.1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.9.0 build revision: d7057100a6
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (edffe66e47919166ffded845a1f6a7e5)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (edffe66e47919166ffded845a1f6a7e5),proxy=null,downloadsFolder=C:\Users\User\IdeaProjects\PatternsOne\build\downloads\1688396668361_12908_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+]]></system-err>
+</testsuite>

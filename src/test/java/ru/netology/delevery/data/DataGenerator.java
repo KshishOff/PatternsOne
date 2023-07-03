@@ -1,4 +1,4 @@
-package ru.netology.delevery;
+package ru.netology.delevery.data;
 
 import com.github.javafaker.Faker;
 import lombok.Value;
@@ -12,12 +12,12 @@ public class DataGenerator {
     private DataGenerator() {
     }
 
-    public static String generateData(int shift) {
-        return LocalDate.now().plusDays(shift).format(DateTimeFormatter.ofPattern("dd.MM.yy"));
+    public static String generateDate(int shift) {
+        return LocalDate.now().plusDays(shift).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
 
     public static String generateCity() {
-        var cities = new String[]{"Москва", "Санкт-Петербург", "Тула", "Кисловодск", "Ялта", "Уфа", "Рязань", "Курск", "Выборг", "Псков", "Сочи", "Клин"};
+        var cities = new String[]{"Москва", "Санкт-Петербург", "Тула", "Брянск", "Калуга", "Уфа", "Рязань", "Курск", "Казань", "Псков", "Липецк", "Кострома"};
         return cities[new Random().nextInt(cities.length)];
     }
 
